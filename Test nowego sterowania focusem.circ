@@ -28,9 +28,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#Sterowanie/blok sterowania2.circ" name="7"/>
-  <lib desc="file#Sterowanie/blok zwracajacy pozycje.circ" name="8"/>
-  <lib desc="file#Sterowanie/Układ zmieny sygnaly sterowania z 5bit na 3bit.circ" name="9"/>
+  <lib desc="file#Sterowanie/Sterowanie.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -101,6 +99,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(760,180)" to="(760,230)"/>
     <wire from="(660,380)" to="(740,380)"/>
     <wire from="(650,320)" to="(650,370)"/>
+    <comp lib="7" loc="(570,370)" name="uklad zwracajacy pozycje"/>
+    <comp lib="0" loc="(70,310)" name="Clock">
+      <a name="highDuration" val="4"/>
+      <a name="lowDuration" val="2"/>
+    </comp>
+    <comp lib="0" loc="(740,270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="7" loc="(340,340)" name="Sterowanie z klawiatury"/>
+    <comp lib="7" loc="(660,230)" name="Uklad zmiany sterowania z 3bit na 5bit"/>
+    <comp lib="0" loc="(680,440)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="5" loc="(670,320)" name="DotMatrix">
       <a name="inputtype" val="row"/>
       <a name="matrixrows" val="1"/>
@@ -109,30 +125,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="5"/>
     </comp>
-    <comp lib="0" loc="(680,440)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(70,310)" name="Clock">
-      <a name="highDuration" val="4"/>
-      <a name="lowDuration" val="2"/>
-    </comp>
-    <comp lib="7" loc="(340,340)" name="main"/>
-    <comp lib="9" loc="(660,230)" name="main"/>
     <comp lib="5" loc="(120,310)" name="Keyboard">
       <a name="buflen" val="1"/>
-    </comp>
-    <comp lib="0" loc="(740,180)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(740,270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(470,300)" name="Pin">
       <a name="facing" val="west"/>
@@ -140,6 +134,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="3"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="8" loc="(570,370)" name="main"/>
+    <comp lib="0" loc="(740,180)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+    </comp>
   </circuit>
 </project>
