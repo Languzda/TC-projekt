@@ -63,43 +63,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(220,400)" to="(250,400)"/>
+    <wire from="(160,70)" to="(160,200)"/>
     <wire from="(540,140)" to="(540,150)"/>
-    <wire from="(90,80)" to="(150,80)"/>
+    <wire from="(160,200)" to="(220,200)"/>
+    <wire from="(220,200)" to="(220,210)"/>
+    <wire from="(400,160)" to="(400,170)"/>
+    <wire from="(420,140)" to="(540,140)"/>
+    <wire from="(380,140)" to="(380,150)"/>
+    <wire from="(110,70)" to="(160,70)"/>
+    <wire from="(70,30)" to="(110,30)"/>
+    <wire from="(340,140)" to="(380,140)"/>
+    <wire from="(220,210)" to="(320,210)"/>
+    <wire from="(220,400)" to="(250,400)"/>
     <wire from="(110,30)" to="(110,70)"/>
+    <wire from="(380,150)" to="(400,150)"/>
     <wire from="(400,170)" to="(420,170)"/>
     <wire from="(400,290)" to="(420,290)"/>
-    <wire from="(400,160)" to="(400,170)"/>
     <wire from="(250,290)" to="(250,400)"/>
-    <wire from="(420,140)" to="(540,140)"/>
-    <wire from="(390,150)" to="(400,150)"/>
-    <wire from="(310,60)" to="(390,60)"/>
+    <wire from="(230,130)" to="(310,130)"/>
+    <wire from="(230,150)" to="(310,150)"/>
     <wire from="(250,290)" to="(260,290)"/>
-    <wire from="(90,80)" to="(90,100)"/>
-    <wire from="(110,70)" to="(150,70)"/>
-    <wire from="(70,30)" to="(110,30)"/>
+    <wire from="(320,160)" to="(320,210)"/>
     <wire from="(420,170)" to="(420,290)"/>
-    <wire from="(390,60)" to="(390,150)"/>
-    <comp lib="0" loc="(220,400)" name="Pin">
+    <comp lib="2" loc="(340,140)" name="Multiplexer">
       <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(90,100)" name="Ground"/>
-    <comp lib="4" loc="(400,290)" name="ROM">
-      <a name="addrWidth" val="4"/>
-      <a name="dataWidth" val="21"/>
-      <a name="contents">addr/data: 4 21
-1d4a57 88422 1d0e17 1c4e17 44e55 1c4e47 1d4e47 44217
-</a>
-    </comp>
-    <comp lib="0" loc="(70,30)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(540,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="25"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(230,130)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xf"/>
     </comp>
     <comp lib="0" loc="(420,140)" name="Splitter">
       <a name="facing" val="west"/>
@@ -128,14 +119,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit23" val="1"/>
       <a name="bit24" val="0"/>
     </comp>
-    <comp lib="0" loc="(170,60)" name="Splitter">
-      <a name="facing" val="west"/>
+    <comp lib="0" loc="(70,30)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="f?"/>
     </comp>
-    <comp lib="4" loc="(310,60)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="4"/>
-      <a name="contents">addr/data: 2 4
-f
+    <comp lib="0" loc="(230,150)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(220,400)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(540,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="25"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(400,290)" name="ROM">
+      <a name="addrWidth" val="4"/>
+      <a name="dataWidth" val="21"/>
+      <a name="contents">addr/data: 4 21
+0 88422 1d0e17 1c4e17 44e55 1c4e47 1d4e47 44217
+1d4e57
 </a>
     </comp>
   </circuit>

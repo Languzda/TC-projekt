@@ -80,26 +80,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(70,30)" to="(110,30)"/>
     <wire from="(420,170)" to="(420,290)"/>
     <wire from="(390,60)" to="(390,150)"/>
-    <comp lib="0" loc="(220,400)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(90,100)" name="Ground"/>
-    <comp lib="4" loc="(400,290)" name="ROM">
-      <a name="addrWidth" val="4"/>
-      <a name="dataWidth" val="21"/>
-      <a name="contents">addr/data: 4 21
-1d4a57 88422 1d0e17 1c4e17 44e55 1c4e47 1d4e47 44217
-</a>
-    </comp>
-    <comp lib="0" loc="(70,30)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(540,150)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="25"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(220,400)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(170,60)" name="Splitter">
+      <a name="facing" val="west"/>
     </comp>
     <comp lib="0" loc="(420,140)" name="Splitter">
       <a name="facing" val="west"/>
@@ -128,14 +120,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit23" val="1"/>
       <a name="bit24" val="0"/>
     </comp>
-    <comp lib="0" loc="(170,60)" name="Splitter">
-      <a name="facing" val="west"/>
+    <comp lib="0" loc="(70,30)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(90,100)" name="Ground"/>
     <comp lib="4" loc="(310,60)" name="ROM">
       <a name="addrWidth" val="2"/>
       <a name="dataWidth" val="4"/>
       <a name="contents">addr/data: 2 4
 f
+</a>
+    </comp>
+    <comp lib="4" loc="(400,290)" name="ROM">
+      <a name="addrWidth" val="4"/>
+      <a name="dataWidth" val="21"/>
+      <a name="contents">addr/data: 4 21
+0 88422 1d0e17 1c4e17 44e55 1c4e47 1d4e47 44217
+1d4e57
 </a>
     </comp>
   </circuit>
