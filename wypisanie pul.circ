@@ -130,116 +130,49 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(660,260)" to="(750,260)"/>
     <wire from="(480,170)" to="(750,170)"/>
     <wire from="(770,360)" to="(770,420)"/>
-    <comp lib="0" loc="(500,130)" name="Constant">
+    <comp lib="0" loc="(600,80)" name="Constant">
       <a name="width" val="10"/>
-      <a name="value" val="0x84"/>
+      <a name="value" val="0x88"/>
     </comp>
     <comp lib="0" loc="(570,260)" name="Constant">
       <a name="width" val="10"/>
       <a name="value" val="0x22"/>
     </comp>
-    <comp lib="0" loc="(540,250)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x42"/>
-    </comp>
-    <comp lib="2" loc="(790,200)" name="Multiplexer">
-      <a name="select" val="5"/>
-      <a name="width" val="10"/>
-    </comp>
-    <comp lib="0" loc="(640,60)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x208"/>
-    </comp>
-    <comp lib="0" loc="(720,20)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x110"/>
-    </comp>
-    <comp lib="0" loc="(600,270)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x201"/>
-    </comp>
-    <comp lib="0" loc="(540,110)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x204"/>
-    </comp>
-    <comp lib="0" loc="(680,40)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x50"/>
-    </comp>
-    <comp lib="0" loc="(660,50)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x30"/>
-    </comp>
-    <comp lib="0" loc="(860,200)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="10"/>
-      <a name="label" val="Wyjścia X pierwszy Y drugi (2x 5 bit)"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(520,120)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x104"/>
-    </comp>
-    <comp lib="0" loc="(470,490)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="4" loc="(680,420)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x19"/>
-    </comp>
-    <comp lib="0" loc="(620,70)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x108"/>
-    </comp>
-    <comp lib="0" loc="(700,30)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x90"/>
-    </comp>
     <comp lib="0" loc="(480,140)" name="Constant">
       <a name="width" val="10"/>
       <a name="value" val="0x44"/>
-    </comp>
-    <comp lib="0" loc="(510,240)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x82"/>
-    </comp>
-    <comp lib="0" loc="(580,90)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x48"/>
-    </comp>
-    <comp lib="0" loc="(710,310)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x21"/>
-    </comp>
-    <comp lib="0" loc="(630,280)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x101"/>
     </comp>
     <comp lib="0" loc="(480,230)" name="Constant">
       <a name="width" val="10"/>
       <a name="value" val="0x102"/>
     </comp>
-    <comp lib="0" loc="(740,10)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x210"/>
-    </comp>
-    <comp lib="0" loc="(560,100)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x28"/>
-    </comp>
-    <comp lib="0" loc="(440,160)" name="Constant">
-      <a name="width" val="10"/>
-      <a name="value" val="0x202"/>
-    </comp>
     <comp lib="0" loc="(660,290)" name="Constant">
       <a name="width" val="10"/>
       <a name="value" val="0x81"/>
     </comp>
-    <comp lib="0" loc="(600,80)" name="Constant">
+    <comp lib="0" loc="(580,90)" name="Constant">
       <a name="width" val="10"/>
-      <a name="value" val="0x88"/>
+      <a name="value" val="0x48"/>
+    </comp>
+    <comp lib="0" loc="(470,490)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(620,70)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x108"/>
+    </comp>
+    <comp lib="4" loc="(680,420)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x18"/>
+    </comp>
+    <comp lib="0" loc="(520,120)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x104"/>
+    </comp>
+    <comp lib="0" loc="(740,10)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x210"/>
     </comp>
     <comp lib="0" loc="(460,150)" name="Constant">
       <a name="width" val="10"/>
@@ -248,6 +181,73 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(690,300)" name="Constant">
       <a name="width" val="10"/>
       <a name="value" val="0x41"/>
+    </comp>
+    <comp lib="0" loc="(660,50)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x30"/>
+    </comp>
+    <comp lib="0" loc="(640,60)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x208"/>
+    </comp>
+    <comp lib="0" loc="(440,160)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x202"/>
+    </comp>
+    <comp lib="0" loc="(500,130)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x84"/>
+    </comp>
+    <comp lib="0" loc="(710,310)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x21"/>
+    </comp>
+    <comp lib="0" loc="(600,270)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x201"/>
+    </comp>
+    <comp lib="0" loc="(680,40)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x50"/>
+    </comp>
+    <comp lib="0" loc="(540,110)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x204"/>
+    </comp>
+    <comp lib="0" loc="(560,100)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x28"/>
+    </comp>
+    <comp lib="0" loc="(510,240)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x82"/>
+    </comp>
+    <comp lib="0" loc="(860,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="10"/>
+      <a name="label" val="Wyjścia X pierwszy Y drugi (2x 5 bit)"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(540,250)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x42"/>
+    </comp>
+    <comp lib="0" loc="(720,20)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x110"/>
+    </comp>
+    <comp lib="0" loc="(630,280)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x101"/>
+    </comp>
+    <comp lib="0" loc="(700,30)" name="Constant">
+      <a name="width" val="10"/>
+      <a name="value" val="0x90"/>
+    </comp>
+    <comp lib="2" loc="(790,200)" name="Multiplexer">
+      <a name="select" val="5"/>
+      <a name="width" val="10"/>
     </comp>
   </circuit>
 </project>
