@@ -97,7 +97,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(170,1250)" to="(170,1260)"/>
     <wire from="(170,1290)" to="(170,1300)"/>
     <wire from="(1690,1140)" to="(1690,1220)"/>
-    <wire from="(440,420)" to="(440,430)"/>
     <wire from="(180,1240)" to="(230,1240)"/>
     <wire from="(280,1340)" to="(280,1350)"/>
     <wire from="(330,1210)" to="(330,1220)"/>
@@ -105,20 +104,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,1330)" to="(290,1340)"/>
     <wire from="(240,1200)" to="(240,1220)"/>
     <wire from="(290,490)" to="(290,510)"/>
-    <wire from="(440,400)" to="(440,420)"/>
     <wire from="(1660,1140)" to="(1660,1150)"/>
     <wire from="(1620,1200)" to="(1620,1210)"/>
     <wire from="(180,140)" to="(180,160)"/>
     <wire from="(160,200)" to="(160,220)"/>
     <wire from="(130,1300)" to="(170,1300)"/>
     <wire from="(220,1170)" to="(260,1170)"/>
-    <wire from="(350,390)" to="(350,420)"/>
     <wire from="(170,210)" to="(170,240)"/>
     <wire from="(630,210)" to="(630,230)"/>
     <wire from="(170,350)" to="(200,350)"/>
     <wire from="(160,200)" to="(190,200)"/>
     <wire from="(120,200)" to="(150,200)"/>
-    <wire from="(350,420)" to="(440,420)"/>
     <wire from="(1670,1150)" to="(1670,1210)"/>
     <wire from="(480,1300)" to="(510,1300)"/>
     <wire from="(480,1320)" to="(510,1320)"/>
@@ -126,7 +122,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(330,1210)" to="(360,1210)"/>
     <wire from="(1590,1010)" to="(1670,1010)"/>
     <wire from="(230,1340)" to="(250,1340)"/>
-    <wire from="(330,420)" to="(350,420)"/>
     <wire from="(550,1170)" to="(580,1170)"/>
     <wire from="(180,220)" to="(180,260)"/>
     <wire from="(1590,1030)" to="(1600,1030)"/>
@@ -159,7 +154,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(250,1360)" to="(280,1360)"/>
     <wire from="(340,1240)" to="(360,1240)"/>
     <wire from="(1820,1090)" to="(1830,1090)"/>
-    <wire from="(420,400)" to="(440,400)"/>
     <wire from="(120,160)" to="(140,160)"/>
     <wire from="(170,210)" to="(190,210)"/>
     <wire from="(1610,1200)" to="(1620,1200)"/>
@@ -167,7 +161,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,1200)" to="(240,1200)"/>
     <wire from="(280,510)" to="(290,510)"/>
     <wire from="(270,1340)" to="(280,1340)"/>
-    <wire from="(340,390)" to="(350,390)"/>
     <wire from="(1300,1130)" to="(1330,1130)"/>
     <wire from="(260,1170)" to="(260,1220)"/>
     <wire from="(1610,1220)" to="(1640,1220)"/>
@@ -177,215 +170,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(570,1220)" to="(580,1220)"/>
     <wire from="(570,1240)" to="(580,1240)"/>
     <wire from="(620,230)" to="(630,230)"/>
-    <comp lib="0" loc="(330,420)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1830,1090)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="V"/>
-    </comp>
-    <comp lib="0" loc="(250,1360)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Start"/>
-    </comp>
-    <comp lib="0" loc="(1610,1200)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="X5"/>
-    </comp>
-    <comp lib="1" loc="(450,1310)" name="OR Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="8" loc="(670,200)" name="Wyswietlanie wyniku"/>
-    <comp lib="5" loc="(150,480)" name="Keyboard"/>
-    <comp lib="0" loc="(120,180)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="V"/>
-    </comp>
-    <comp lib="0" loc="(100,400)" name="Tunnel">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="6" loc="(626,516)" name="Text">
-      <a name="text" val="Aby rozpocząć rozgrywkę trzeba kliknąć start i poczekać z 3 sekundy aż bomby się ustawią"/>
-    </comp>
-    <comp lib="0" loc="(290,1330)" name="Pull Resistor"/>
-    <comp lib="0" loc="(570,1220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Koniec"/>
-    </comp>
-    <comp lib="6" loc="(315,596)" name="Text">
-      <a name="text" val="RESTART NIE DZIALA"/>
-    </comp>
-    <comp lib="7" loc="(1670,1210)" name="Uklad zmiany sterowania z 3bit na 5bit"/>
-    <comp lib="6" loc="(274,629)" name="Text">
-      <a name="text" val="CZasami nie wykrywa bomb"/>
-    </comp>
-    <comp lib="0" loc="(510,1320)" name="Tunnel">
-      <a name="label" val="Loss"/>
-    </comp>
-    <comp lib="0" loc="(250,1310)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Koniec"/>
-    </comp>
-    <comp lib="0" loc="(220,1170)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="M"/>
-    </comp>
-    <comp lib="5" loc="(590,180)" name="DotMatrix">
-      <a name="matrixcols" val="21"/>
-      <a name="matrixrows" val="5"/>
-    </comp>
-    <comp lib="0" loc="(570,1240)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Start"/>
-    </comp>
-    <comp lib="7" loc="(290,1240)" name="Sterowanie dużo"/>
-    <comp lib="0" loc="(620,230)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="12"/>
-      <a name="label" val="L"/>
-    </comp>
-    <comp lib="0" loc="(280,510)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="7"/>
-      <a name="label" val="Klawiatura"/>
-    </comp>
-    <comp lib="0" loc="(130,1300)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Koniec"/>
-    </comp>
-    <comp lib="0" loc="(300,1340)" name="Tunnel">
-      <a name="width" val="2"/>
-      <a name="label" val="DISP2"/>
-    </comp>
-    <comp lib="0" loc="(130,1240)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="7"/>
-      <a name="label" val="Klawiatura"/>
-    </comp>
-    <comp lib="0" loc="(220,1200)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Enter"/>
-    </comp>
-    <comp lib="11" loc="(1430,1110)" name="main"/>
-    <comp lib="0" loc="(360,1240)" name="Tunnel">
-      <a name="width" val="25"/>
-      <a name="label" val="S 25b"/>
-    </comp>
-    <comp lib="0" loc="(1300,1130)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Start"/>
-    </comp>
-    <comp lib="0" loc="(230,1340)" name="Clock"/>
-    <comp lib="10" loc="(1700,1090)" name="main"/>
-    <comp lib="0" loc="(550,1170)" name="Clock">
-      <a name="highDuration" val="4"/>
-      <a name="lowDuration" val="4"/>
-    </comp>
-    <comp lib="0" loc="(120,260)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Loss"/>
-    </comp>
-    <comp lib="0" loc="(120,140)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="X5"/>
-    </comp>
-    <comp lib="0" loc="(120,160)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="Y5"/>
-    </comp>
-    <comp lib="6" loc="(611,539)" name="Text">
-      <a name="text" val="Symulacja 64Hz"/>
-    </comp>
-    <comp lib="0" loc="(650,1170)" name="Tunnel">
-      <a name="width" val="12"/>
-      <a name="label" val="L"/>
-    </comp>
-    <comp lib="9" loc="(220,40)" name="main"/>
     <comp lib="0" loc="(130,600)" name="Tunnel">
       <a name="label" val="Start"/>
-    </comp>
-    <comp lib="1" loc="(270,1340)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="0" loc="(1750,1160)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Loss"/>
-    </comp>
-    <comp lib="0" loc="(170,350)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Win"/>
-    </comp>
-    <comp lib="0" loc="(130,630)" name="Tunnel">
-      <a name="label" val="Reset"/>
-    </comp>
-    <comp lib="0" loc="(120,220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="25"/>
-      <a name="label" val="S 25b"/>
-    </comp>
-    <comp lib="0" loc="(660,1230)" name="Tunnel">
-      <a name="width" val="2"/>
-      <a name="label" val="DISP"/>
-    </comp>
-    <comp lib="8" loc="(640,1170)" name="main"/>
-    <comp lib="0" loc="(420,400)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Koniec"/>
-    </comp>
-    <comp lib="1" loc="(170,1260)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(510,1300)" name="Tunnel">
-      <a name="label" val="Win"/>
-    </comp>
-    <comp lib="0" loc="(1610,1220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="Y5"/>
-    </comp>
-    <comp lib="1" loc="(180,1240)" name="Controlled Buffer">
-      <a name="width" val="7"/>
-    </comp>
-    <comp lib="5" loc="(130,600)" name="Button">
-      <a name="color" val="#306e31"/>
-    </comp>
-    <comp lib="8" loc="(670,110)" name="wyswietlacz czasu"/>
-    <comp lib="0" loc="(1590,1010)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Enter"/>
-    </comp>
-    <comp lib="0" loc="(1590,1030)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Start"/>
-    </comp>
-    <comp lib="0" loc="(580,200)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="2"/>
-      <a name="label" val="DISP2"/>
     </comp>
     <comp lib="0" loc="(120,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Start"/>
     </comp>
-    <comp lib="0" loc="(300,1340)" name="Splitter">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(570,110)" name="Tunnel">
+    <comp lib="0" loc="(1300,1130)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="width" val="2"/>
-      <a name="label" val="DISP"/>
+      <a name="label" val="Start"/>
     </comp>
-    <comp lib="0" loc="(120,240)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Enter"/>
-    </comp>
-    <comp lib="0" loc="(130,480)" name="Clock"/>
+    <comp lib="9" loc="(220,40)" name="main"/>
     <comp lib="0" loc="(360,1210)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="Y5"/>
@@ -397,16 +193,207 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#d5f1ff"/>
       <a name="offcolor" val="#241640"/>
     </comp>
-    <comp lib="5" loc="(590,90)" name="DotMatrix">
-      <a name="matrixcols" val="21"/>
-      <a name="matrixrows" val="5"/>
+    <comp lib="0" loc="(120,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="25"/>
+      <a name="label" val="S 25b"/>
     </comp>
-    <comp lib="5" loc="(130,630)" name="Button">
-      <a name="color" val="#393eff"/>
+    <comp lib="10" loc="(1700,1090)" name="main"/>
+    <comp lib="8" loc="(640,1170)" name="main"/>
+    <comp lib="5" loc="(130,600)" name="Button">
+      <a name="color" val="#306e31"/>
     </comp>
     <comp lib="0" loc="(360,1190)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="X5"/>
     </comp>
+    <comp lib="0" loc="(120,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="X5"/>
+    </comp>
+    <comp lib="0" loc="(300,1340)" name="Splitter">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="DISP2"/>
+    </comp>
+    <comp lib="0" loc="(280,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="7"/>
+      <a name="label" val="Klawiatura"/>
+    </comp>
+    <comp lib="0" loc="(660,1230)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="DISP"/>
+    </comp>
+    <comp lib="0" loc="(130,630)" name="Tunnel">
+      <a name="label" val="Reset"/>
+    </comp>
+    <comp lib="0" loc="(510,1300)" name="Tunnel">
+      <a name="label" val="Win"/>
+    </comp>
+    <comp lib="0" loc="(130,1240)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="7"/>
+      <a name="label" val="Klawiatura"/>
+    </comp>
+    <comp lib="1" loc="(170,1260)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(120,240)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Enter"/>
+    </comp>
+    <comp lib="0" loc="(1830,1090)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="V"/>
+    </comp>
+    <comp lib="1" loc="(270,1340)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(250,1360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Start"/>
+    </comp>
+    <comp lib="0" loc="(650,1170)" name="Tunnel">
+      <a name="width" val="12"/>
+      <a name="label" val="L"/>
+    </comp>
+    <comp lib="0" loc="(230,1340)" name="Clock"/>
+    <comp lib="0" loc="(120,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Loss"/>
+    </comp>
+    <comp lib="6" loc="(626,516)" name="Text">
+      <a name="text" val="Aby rozpocząć rozgrywkę trzeba kliknąć start i poczekać z 3 sekundy aż bomby się ustawią"/>
+    </comp>
+    <comp lib="0" loc="(550,1170)" name="Clock">
+      <a name="highDuration" val="4"/>
+      <a name="lowDuration" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1610,1220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="Y5"/>
+    </comp>
+    <comp lib="6" loc="(611,539)" name="Text">
+      <a name="text" val="Symulacja 128Hz"/>
+    </comp>
+    <comp lib="1" loc="(180,1240)" name="Controlled Buffer">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="5" loc="(590,90)" name="DotMatrix">
+      <a name="matrixcols" val="21"/>
+      <a name="matrixrows" val="5"/>
+    </comp>
+    <comp lib="5" loc="(590,180)" name="DotMatrix">
+      <a name="matrixcols" val="21"/>
+      <a name="matrixrows" val="5"/>
+    </comp>
+    <comp lib="0" loc="(250,1310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Win"/>
+    </comp>
+    <comp lib="0" loc="(170,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Win"/>
+    </comp>
+    <comp lib="0" loc="(300,1340)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="DISP2"/>
+    </comp>
+    <comp lib="11" loc="(1430,1110)" name="main"/>
+    <comp lib="0" loc="(290,1330)" name="Pull Resistor"/>
+    <comp lib="0" loc="(1610,1200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="X5"/>
+    </comp>
+    <comp lib="0" loc="(360,1240)" name="Tunnel">
+      <a name="width" val="25"/>
+      <a name="label" val="S 25b"/>
+    </comp>
+    <comp lib="0" loc="(1590,1010)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Enter"/>
+    </comp>
+    <comp lib="0" loc="(510,1320)" name="Tunnel">
+      <a name="label" val="Loss"/>
+    </comp>
+    <comp lib="0" loc="(120,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="V"/>
+    </comp>
+    <comp lib="7" loc="(1670,1210)" name="Uklad zmiany sterowania z 3bit na 5bit"/>
+    <comp lib="5" loc="(130,630)" name="Button">
+      <a name="color" val="#393eff"/>
+    </comp>
+    <comp lib="0" loc="(620,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="12"/>
+      <a name="label" val="L"/>
+    </comp>
+    <comp lib="0" loc="(120,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="Y5"/>
+    </comp>
+    <comp lib="0" loc="(400,1310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Koniec"/>
+    </comp>
+    <comp lib="6" loc="(274,629)" name="Text">
+      <a name="text" val="CZasami nie wykrywa bomb"/>
+    </comp>
+    <comp lib="0" loc="(1750,1160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Loss"/>
+    </comp>
+    <comp lib="0" loc="(570,1220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Koniec"/>
+    </comp>
+    <comp lib="0" loc="(570,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="DISP"/>
+    </comp>
+    <comp lib="0" loc="(220,1200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Enter"/>
+    </comp>
+    <comp lib="5" loc="(150,480)" name="Keyboard"/>
+    <comp lib="0" loc="(570,1240)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Start"/>
+    </comp>
+    <comp lib="8" loc="(670,110)" name="wyswietlacz czasu"/>
+    <comp lib="0" loc="(1590,1030)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Start"/>
+    </comp>
+    <comp lib="0" loc="(130,480)" name="Clock"/>
+    <comp lib="0" loc="(220,1170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="M"/>
+    </comp>
+    <comp lib="8" loc="(670,200)" name="Wyswietlanie wyniku"/>
+    <comp lib="6" loc="(315,596)" name="Text">
+      <a name="text" val="RESTART NIE DZIALA"/>
+    </comp>
+    <comp lib="0" loc="(130,1300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Koniec"/>
+    </comp>
+    <comp lib="1" loc="(450,1310)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="7" loc="(290,1240)" name="Sterowanie dużo"/>
   </circuit>
 </project>
